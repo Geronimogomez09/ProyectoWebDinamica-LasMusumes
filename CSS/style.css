@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "minecraft";
+    src: url(../fonts/Minecraft.ttf);
+}
+
+:root{
+    --font1: "minecraft";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: var(--font1);
+}
